@@ -7,6 +7,7 @@ from colorama import init, Fore, Style
 init(autoreset=True)
 
 
+
 def check_pdf_with_qpdf(pdf_path):
     """
     Проверяет целостность PDF-файла с помощью QPDF.
