@@ -8,6 +8,8 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 pypdf2 = "^3.0.1"
+pikepdf = "^9.2.0"
+colorama = "^0.4.6"
 
 
 [build-system]
