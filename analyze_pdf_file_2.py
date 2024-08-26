@@ -8,6 +8,7 @@ from lxml import etree
 # Инициализация Colorama для цветного вывода в консоли
 init(autoreset=True)
 
+
 def analyze_pdf_objects(doc):
     for page_num in range(len(doc)):
         page = doc[page_num]
@@ -21,6 +22,7 @@ def analyze_pdf_objects(doc):
                     print(f"  Линия: {line['bbox']}, Текст: {line['spans'][0]['text']}")
             else:
                 print(f"  В блоке нет текстовых линий")
+
 
 def analyze_pdf_images(doc):
     for page_num in range(len(doc)):
